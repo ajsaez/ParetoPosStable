@@ -6,10 +6,11 @@ An R package with statistical functions to describe a Pareto Positive Stable (PP
 ```r
 install.packages(c("graphics", "grDevices", "stats", "ADGofTest", "lmom", "foreach", "doParallel", "parallel"))
 ```
-* Install ParetoPosStable current development version from CRAN:
+* Install ParetoPosStable current development version from GitHub:
 ```r
 devtools::install_github("ajsaez/ParetoPosStable")
 ```
+The package is also [available from CRAN](https://cran.r-project.org/web/packages/ParetoPosStable/index.html).
 * After attaching the package, you are ready to start:
 ```r
 library(ParetoPosStable)
